@@ -1,45 +1,51 @@
 ---
-name: "Campos Costa Assessoria Jurídica"
-description: "Leitura editorial clara, serifas expressivas, bronze e fotografias originais."
+name: "Rafhaela Silva — Advocacia e Consultoria Jurídica"
+description: "Serifas contrastadas, rosé e cobre, superfícies de marfim e atendimento com clareza."
 colors:
-  ink: "#202729"
-  ink-soft: "#505b5e"
-  paper: "#ffffff"
-  ivory: "#f6f7f6"
-  linen: "#d6dcda"
-  brand-50: "#eef1ef"
-  brand-100: "#e7ece8"
-  brand-200: "#ffe6a0"
-  brand-300: "#ffd060"
-  brand-400: "#d4ab55"
-  brand-500: "#b78a31"
-  brand-600: "#95691d"
-  brand-700: "#805b25"
-  brand-800: "#62471f"
-  brand-900: "#263033"
-  brand-950: "#172023"
+  ink: "#332521"
+  ink-soft: "#6d5750"
+  paper: "#fffdfb"
+  ivory: "#fbf8f4"
+  linen: "#e8dcd5"
+  brand-50: "#f5eee7"
+  brand-100: "#f0d9cf"
+  brand-200: "#ffe4d6"
+  brand-300: "#f0b7a6"
+  brand-400: "#dba08e"
+  brand-500: "#b87564"
+  brand-600: "#a16050"
+  brand-700: "#8c4c3e"
+  brand-800: "#723d33"
+  brand-900: "#573a32"
+  brand-950: "#30211d"
+  action-text: "#ffffff"
+  services-surface: "#f8f3ed"
+  trust-divider: "#775b51"
+  trust-muted: "#d6beb3"
+  footer-muted: "#dbc9c0"
 typography:
   display:
-    fontFamily: "Merriweather, Georgia, serif"
-    fontSize: "clamp(2.8rem, 3.9vw, 3.6rem)"
-    fontWeight: 700
-    lineHeight: 1.14
+    fontFamily: "Cormorant Garamond, Georgia, serif"
+    fontSize: "clamp(3.4rem, 4.8vw, 4.5rem)"
+    fontWeight: 600
+    lineHeight: 1.06
     letterSpacing: "-0.025em"
   headline:
-    fontFamily: "Merriweather, Georgia, serif"
-    fontSize: "clamp(1.8rem, 2.7vw, 2.5rem)"
-    fontWeight: 700
-    lineHeight: 1.25
+    fontFamily: "Cormorant Garamond, Georgia, serif"
+    fontSize: "clamp(2.6rem, 3.6vw, 3.4rem)"
+    fontWeight: 600
+    lineHeight: 1.12
     letterSpacing: "-0.025em"
   title:
-    fontFamily: "Merriweather, Georgia, serif"
+    fontFamily: "Cormorant Garamond, Georgia, serif"
     fontSize: "1.5rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.3
+    letterSpacing: "-0.025em"
   body:
     fontFamily: "Manrope, system-ui, sans-serif"
-    fontSize: "14px"
-    fontWeight: 400
+    fontSize: "16px"
+    fontWeight: 500
     lineHeight: 1.85
   label:
     fontFamily: "Manrope, system-ui, sans-serif"
@@ -47,116 +53,118 @@ typography:
     fontWeight: 700
     lineHeight: 1.6
 rounded:
-  button: "2px"
-  panel: "2px"
-  card: "2px"
-  portrait: "2px"
+  button: "4px"
+  card: "5px"
+  portrait: "8px"
   dialog: "4px"
+  avatar: "50%"
 spacing:
   gutter-mobile: "20px"
   gutter-tablet: "24px"
   gutter-desktop: "32px"
-  section-mobile: "54px"
+  section-mobile: "64px"
   section-tablet: "64px"
-  section-desktop: "88px"
+  section-desktop: "104px"
+  card-desktop: "28px"
+  card-compact: "22px"
 components:
   button-primary:
-    backgroundColor: "{colors.brand-950}"
-    textColor: "{colors.paper}"
+    backgroundColor: "{colors.brand-700}"
+    textColor: "{colors.action-text}"
     typography: "{typography.label}"
     rounded: "{rounded.button}"
     padding: "13px 20px"
   button-primary-hover:
-    backgroundColor: "{colors.brand-900}"
-    textColor: "{colors.paper}"
+    backgroundColor: "{colors.brand-800}"
   button-secondary:
     backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
     typography: "{typography.label}"
     rounded: "{rounded.button}"
     padding: "13px 20px"
+  button-secondary-hover:
+    textColor: "{colors.brand-700}"
+  icon-button:
+    textColor: "{colors.brand-700}"
+    rounded: "{rounded.button}"
+  text-link:
+    textColor: "{colors.brand-700}"
+  service-card:
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.card}"
+    padding: "{spacing.card-desktop}"
+  review-card:
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.card}"
+    padding: "22px"
+  service-dialog:
+    backgroundColor: "{colors.ivory}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.dialog}"
+    padding: "36px"
+    width: "min(100%, 580px)"
 ---
 
-# Design System: Campos Costa Assessoria Jurídica
+# Design System: Rafhaela Silva — Advocacia e Consultoria Jurídica
 
 ## Overview
 
-**Creative North Star: "Direito com clareza, atendimento com cuidado"**
+**Creative North Star: "Clareza com cuidado"**
 
-O sistema organiza a presença do escritório como uma publicação editorial clara: grandes serifas, ênfases em bronze sem itálico, superfícies de papel e fotografias fornecidas. O logo dourado e branco permanece integral sem fundo próprio no cabeçalho e sobre o rodapé escuro.
-
-A atualização responde à rejeição explícita do hero escuro e da página percebida como vazia. A referência enviada orienta composição e densidade; os fatos e a identidade permanecem da Campos Costa.
+A referência visual enviada em 21/10/2026 orienta a composição editorial: superfícies claras, títulos contrastados com ênfase em itálico, fotografias emolduradas, cartões delicados e espaços generosos. Os fatos e o logo continuam exclusivos de Rafhaela Silva. A referência não fornece credenciais, especialidades ou imagens para o site.
 
 **Key Characteristics:**
-
-- Merriweather com pesos 600/700 e sem itálico com Manrope na leitura e nos controles.
-- Papel e cinza mineral predominantes; grafite nas ações e bronze nos detalhes; ouro na marca e nos detalhes sobre escuro.
-- Fotografias originais, cartões de leitura e transições discretas entre superfícies.
+- Marfim e papel predominantes, rosé e cobre nos detalhes e nas ações.
+- Cormorant Garamond em peso 600, com itálicos, e Manrope na leitura.
+- Fotografia original integral no hero e na apresentação, cartão de contato com a marca e rodapé claro.
 
 ## Colors
 
-### Primary
+Os reflexos rosé do logo orientam a família brand. Cobre profundo #8c4c3e garante leitura e ações sobre claro; café #30211d fica na legenda principal da fotografia. Marfim #fbf8f4, papel #fffdfb, superfície #f5eee7 e linho #e8dcd5 mantêm a leveza da referência. O hero tem uma transição diagonal muito suave entre esses fundos; títulos não usam gradiente.
 
-O bronze sustenta links, ícones e trechos de destaque sobre claro. A variante profunda indica hover. Ouro e suas variações derivam do emblema; neutros e tons de leitura foram adaptados para contraste. A escala brand reúne metais e neutros, não uma rampa de matiz único.
-
-### Neutral
-
-Papel branco acolhe cartões e navegação; cinza mineral e superfícies minerais próximas separam seções. Tinta principal nos títulos e leitura, tinta suave nos textos auxiliares, linho nas bordas. Grafite na faixa de informações, nas ações, na legenda do retrato e no rodapé.
-
-**The Contraste Contextual Rule.** Usar bronze nas ênfases sobre claro e grafite nas ações; ouro nos detalhes sobre carvão.
+**The Contraste Contextual Rule.** Usar cobre profundo sobre claro e rosé claro sobre café; não usar reflexos claros do metal como texto pequeno em papel.
 
 ## Typography
 
-Merriweather (600/700, somente normal) e Manrope (400/500/600/700) são carregadas por next/font com display swap. Títulos usam peso 700; bronze destaca trechos da mensagem.
+Cormorant Garamond 500/600, normal e italic, e Manrope 400/500/600/700 são auto-hospedadas por next/font. Os títulos h1/h2/h3 e os itálicos usam peso 600. O corpo usa Manrope 500, 16px e entrelinha 1.85; textos de cards usam 15px, detalhes 12px e botões 14px.
 
-H1 segue o display da frontmatter no desktop, com ajustes para 3.35rem abaixo de 1200px, 2.8rem abaixo de 1024px e escala móvel; abaixo de 480px usa 2.25rem. Títulos de seção próximos de 1.85rem no celular. Corpo global de 14px; parágrafos de cartões de atendimento e relatos de 13px, entrelinha 1.95. Títulos de cartões variam entre 20 e 27px conforme função e largura.
+H1 desktop: clamp(3.4rem,4.8vw,4.5rem), linha 1.06, máximo 560px. Até 1023px: 3.5rem; até 767px: clamp(3.05rem,8.7vw,3.8rem); até 479px: 3.05rem. Títulos de seção: clamp(2.6rem,3.6vw,3.4rem), linha 1.12; h2 móvel 2.8rem. A chamada final usa 42px, reduzidos para 36px. A tipografia exata de cada componente e suas exceções estão em app/globals.css.
 
-**The Ênfase Editorial Rule.** Preservar a relação entre serifa robusta escura e trechos retos em bronze, sem transformar os parágrafos em títulos.
+**The Ênfase Editorial Rule.** Usar itálico rosé para a parte humana da mensagem e serifa normal para sua afirmação principal; manter textos funcionais em Manrope.
 
 ## Layout
 
-Contêiner máximo de 1180px, com margens mínimas de 32px no desktop, 24px abaixo de 1024px e 20px abaixo de 768px. Seções com 88px de espaçamento vertical, reduzidos para 64px e 54px. Cabeçalho sticky de 90px, reduzido para 82px no celular; navegação móvel abaixo de 1024px.
+Contêiner máximo de 1100px, com margens desktop de 32px, tablet de 24px e celular de 20px. Cabeçalho 94px e 86px no celular. Navegação móvel até 1199px. Seções: 104px no desktop e 64px até 1023px.
 
-Hero em duas colunas (1.13fr/1fr), distância de 72px e retrato limitado a 460px. Abaixo de 768px, texto e retrato se empilham. A apresentação combina duas fotos editoriais; no celular o texto precede as imagens. Atendimento e relatos usam três colunas no desktop, duas em larguras intermediárias e uma abaixo de 480px. Compromissos em duas colunas; etapas, FAQ e contato combinam introdução e conteúdo, empilhados no celular.
+Hero: colunas 1.12fr/.88fr com espaço de 92px; fotografia até 390px; texto e foto empilhados até 767px. Cabeçalho tem logo de 156px no desktop e 144px no celular. Faixa de informações clara com quatro colunas, duas até 1023px.
+
+Apresentação: fotografia até 360px e texto, com nota abaixo da foto em fluxo normal. No celular, texto antecede a foto. Serviços e avaliações em três colunas, duas até 767px e uma até 479px. Avaliações têm altura alinhada por linha e autoria ao pé do cartão. Contato em duas colunas equilibradas, empilhadas no celular. Chamada final e rodapé usam superfície clara.
 
 ## Elevation & Depth
 
-Bordas de linho e alternância tonal organizam a maior parte da página. Fotografias recebem sombras suaves: cartão (0 14px 38px rgb(48 41 30 / 12%)) e retrato (0 12px 28px rgb(23 32 35 / 12%)). Ações principais são planas, sem sombra; diálogo usa sombra de sobreposição (0 20px 60px rgb(25 23 17 / 25%)).
+Sombras suaves ficam nas fotografias e ações. Foto principal: 0 12px 28px rgb(48 33 29 / 12%); foto da apresentação: 0 15px 35px rgb(70 39 29 / 11%); botão: 0 4px 10px rgb(140 76 62 / 12%). Cartões de serviço ganham sombra suave apenas no hover. Bordas claras e mudanças tonais separam as demais superfícies.
 
 ## Shapes
 
-Botões, cartões e fotografias usam cantos retos de 2px. Avatar de avaliação circular, sem fotografia inventada. Diálogo com raio de 4px. Logo e retrato mantêm proporção integral. Bordas finas e sombras difusas acompanham as superfícies claras.
+Botões com raio de 4px, cartões de serviço/avaliação com 5px, contato com 6px, retrato da apresentação com 7px e principal com 8px. Ícones permanecem vetoriais e discretos. Não recortar o logo nem a fotografia original.
 
 ## Components
 
-### Buttons
+Botão principal em cobre e branco, mínimo de 48px, hover mais profundo e foco visível. Botão secundário em papel com borda de linho. Preservar foco global de 2px com afastamento de 5px, inclusive no rodapé claro.
 
-Ação principal grafite com texto branco, altura mínima de 48px, ícone vetorial e hover profundo. Secundária branca com borda de linho e hover bronze. Foco visível de 2px e afastamento de 5px; no rodapé, foco ouro.
+Cabeçalho compacto e menu móvel com fechamento por seleção/Escape. Seis cartões abrem diálogos com assunto contextual no WhatsApp, ciclo de foco, Escape, retorno de foco e fundo inert. FAQ nativo details/summary. Todos os dados continuam em app/lib/brand.ts.
 
-### Navigation
+A apresentação reutiliza a única fotografia recebida e acrescenta legenda em papel. A nota fica abaixo, sem sobreposição. O cartão de contato reúne logo, cobertura, endereço, orientação de visita e Maps. A chamada final oferece contato antes do rodapé claro.
 
-Cabeçalho branco com logo original sem placa de fundo. Links discretos e CTA grafite; menu móvel fecha por seleção e Escape, devolvendo foco ao botão.
-
-### Cards / Containers
-
-Seis cartões institucionais com ícone vetorial, título serifado, explicação e ação Saiba mais. Dois painéis de compromisso e três etapas numeradas aprofundam o conteúdo. As numerações representam sequência real de atendimento.
-
-### Reviews
-
-Quinze transcrições fornecidas em cartões brancos com autoria. Relatos longos mostram cinco linhas e botão para expandir ou recolher; texto integral preservado. Nota, total e origem temporal identificados como material enviado, sem atualização automática.
-
-### FAQ and Dialogs
-
-FAQ nativo details/summary. Diálogos com WhatsApp contextual, Escape, ciclo e retorno do foco, fundo inert e bloqueio de rolagem. Não há formulário sem destino.
-
-### Contact and Motion
-
-Telefone, Instagram, endereço e link externo para rotas no Google Maps. O painel de visita oferece conteúdo local em vez de depender de incorporação externa vazia. Revelação curta do retrato por clip-path; conteúdo não aguarda rolagem para aparecer. Movimento reduzido desativa animações e transições.
+Nove transcrições fornecidas, com Helena identificada como trecho. Nota 5,0 e 17 avaliações são dados enviados em 21/10/2026. Movimento: revelação curta da fotografia por clip-path; movimento reduzido desativa animações e transições.
 
 ## Do's and Don'ts
 
-- **Do** preservar arquivos originais, proporção da marca, retrato integral e autoria dos relatos.
-- **Do** manter foco visível, texto legível, movimento reduzido e hierarquia clara em cada largura.
-- **Don't** inventar especialidades, e-mail, horários, atendimento online, experiência, domínio ou resultados.
-- **Don't** identificar o profissional das fotos editoriais como Dr. Davi; somente o retrato fornecido o identifica.
-- **Don't** reconstruir o logo com texto ou copiar os fatos da referência visual.
+- Do preservar o rosé da marca e os dados reais de Rafhaela.
+- Do usar espaços, hierarquia e itálicos para transmitir elegância.
+- Do manter os assets originais, legibilidade e navegação por teclado.
+- Don't copiar nome, formação, especialidades, depoimentos ou fotos da referência.
+- Don't sobrepor legendas a texto, nem acrescentar faixas escuras extensas.
+- Don't inventar contatos, credenciais ou resultados.

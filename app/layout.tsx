@@ -1,13 +1,13 @@
 import type { Metadata, Viewport } from "next";
-import { Merriweather, Manrope } from "next/font/google";
+import { Cormorant_Garamond, Manrope } from "next/font/google";
 import { brand } from "./lib/brand";
 import "./globals.css";
 
-const displayFont = Merriweather({
+const displayFont = Cormorant_Garamond({
   variable: "--font-display-face",
   subsets: ["latin"],
-  weight: ["600", "700"],
-  style: "normal",
+  weight: ["500", "600"],
+  style: ["normal", "italic"],
   display: "swap",
 });
 
@@ -21,14 +21,14 @@ const bodyFont = Manrope({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 const metadataBase = siteUrl ? new URL(siteUrl) : undefined;
 const shareImage = brand.portrait;
-const title = "Campos Costa Assessoria Jurídica | Advogado em Inhapim";
-const description = "Assessoria jurídica em Inhapim com atenção, clareza e responsabilidade. Dr. Davi Oliveira Costa, OAB/MG 171.888. Agende pelo WhatsApp (33) 99811-0480.";
+const title = "Rafhaela Silva | Advocacia em São Gotardo e Atendimento Online";
+const description = "Advocacia e consultoria jurídica com ética, transparência e atenção à sua história. Atendimento em São Gotardo, DF e exterior. WhatsApp (34) 99725-1415.";
 
 export const metadata: Metadata = {
   ...(metadataBase ? { metadataBase } : {}),
   title,
   description,
-  keywords: ["Campos Costa", "assessoria jurídica", "advogado em Inhapim", "Davi Oliveira Costa", "Inhapim MG"],
+  keywords: ["Rafhaela Silva", "advocacia", "consultoria jurídica", "advogada em São Gotardo", "atendimento jurídico online"],
   icons: { icon: [{ url: brand.logo, type: "image/png" }] },
   openGraph: {
     title,
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
       ? [
           {
             url: shareImage,
-            width: 1254,
-            height: 1254,
+            width: 845,
+            height: 839,
             alt: brand.businessName,
           },
         ]
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f6f7f6",
+  themeColor: "#faf5f1",
 };
 
 export default function RootLayout({

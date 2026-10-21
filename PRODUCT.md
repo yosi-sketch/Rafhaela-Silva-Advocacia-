@@ -1,4 +1,4 @@
-# Campos Costa Assessoria Jurídica
+# Rafhaela Silva — Advocacia e Consultoria Jurídica
 
 <!-- impeccable:product-schema 1 -->
 
@@ -6,52 +6,44 @@
 web
 
 ## Users
-Pessoas que buscam orientação jurídica e contato com o escritório em Inhapim, Minas Gerais.
+Pessoas e empresas buscando orientação, suporte e representação jurídica, presencialmente em São Gotardo ou online.
 
 ## Product Purpose
-Apresentar a Campos Costa e o Dr. Davi Oliveira Costa, esclarecer o atendimento e facilitar contato pelo WhatsApp, telefone, Instagram e localização.
+Apresentar Rafhaela Silva, esclarecer os pilares do atendimento e facilitar contato pelo WhatsApp, telefone, Instagram e localização.
 
 ## Positioning
-Atenção, clareza e responsabilidade no atendimento jurídico. Textos institucionais sem promessa de resultado nem especialidades não confirmadas.
+Soluções jurídicas com ética, transparência e atenção à história de cada cliente. Orientação para decisões, prevenção de problemas e defesa de direitos e interesses, sem promessa de resultado.
 
 ## Operating Context
-Página pt-BR com cabeçalho, hero claro e retrato real do Dr. Davi, faixa de informações, apresentação com duas fotos editoriais, seis cartões de atendimento com diálogos, dois painéis de compromisso, três etapas, quinze relatos, FAQ, contato e rodapé. Contato direto sem formulário. Dados em app/lib/brand.ts, tokens em app/globals.css, fontes e metadados em app/layout.tsx, composição e interações em app/page.tsx.
-
-O usuário rejeitou o hero anterior e a página percebida como vazia. A captura editorial clara de Suellem Rodrigues enviada em 20/10/2026 orienta densidade, composição e qualidade visual; não fornece fatos, especialidades ou promessas para Campos Costa.
+Site institucional em pt-BR. Cabeçalho responsivo, hero com publicação fotográfica original, informações de confiança, apresentação, seis pilares com diálogos, compromissos, etapas, nove relatos, FAQ, contato e rodapé. A estrutura e as funções existentes foram preservadas conforme pedido de 21/10/2026.
 
 ## Capabilities and Constraints
-Next.js 16.3.5, React 19.2.8 e Tailwind CSS 4 conforme package.json. Tema Tailwind em @theme inline no CSS global, sem configuração legada separada. Ler AGENTS.md e os guias locais em node_modules/next/dist/docs/ antes de alterar código Next.js.
+Next.js 16.3.5, React 19.2.8, Tailwind CSS 4. Tema central em @theme inline em app/globals.css; não criar tailwind.config legado. Ler os guias locais em node_modules/next/dist/docs antes de alterar APIs.
 
-Diálogos com WhatsApp contextual, Escape, ciclo e retorno de foco, fundo inert e bloqueio de rolagem. Menu móvel fecha por seleção ou Escape. Relatos longos expansíveis; FAQ nativo. CSS respeita movimento reduzido. Endereço, orientação de visita e link externo Maps são locais e não dependem de mapa incorporado.
+Dados e links em app/lib/brand.ts; composição e interações em app/page.tsx; tipografia e metadados em app/layout.tsx. Fontes auto-hospedadas por next/font: Cormorant Garamond 500/600 e Manrope 400/500/600/700.
 
-Os seis cartões são institucionais: Consulta e orientação; Análise de documentos; Orientação preventiva; Avaliação de alternativas; Organização da demanda; Acompanhamento jurídico. Não representam especialidades jurídicas confirmadas. Domínio, e-mail, horários, atendimento online, formação, tempo de experiência e áreas específicas não foram fornecidos.
-
-NEXT_PUBLIC_SITE_URL aceita o domínio absoluto real quando confirmado. Sem a variável, metadataBase e imagens sociais explícitas são omitidos. Com valor válido, o retrato compõe as imagens sociais.
+Modal com foco inicial, ciclo de Tab, Escape, retorno de foco, fundo inert e bloqueio de rolagem. Menu fecha por seleção/Escape. FAQ nativo; relatos extensíveis quando longos. Movimento reduzido respeitado. Contato direto sem formulário. Domínio para metadataBase opcional em NEXT_PUBLIC_SITE_URL; sem domínio inventado.
 
 ## Brand Commitments
-Substituição da identidade e reconstrução visual autorizadas pelo usuário em 20/10/2026. Direção em .impeccable/campos-costa-direction.md. Logo e três fotografias originais preservados, sem recoloração; retrato do Dr. Davi integral no hero. O profissional das fotos editoriais não é identificado como Dr. Davi.
-
-Merriweather 600/700, somente normal, e Manrope 400/500/600/700 via next/font com display swap. Superfícies claras, bronze de leitura e grafite nas ações, ouro original da marca e carvão pontual. Tokens normativos em DESIGN.md e extensões em .impeccable/design.json.
-
-Amostras do logo com alpha >= 220 e quantização em passos de 16: #ffd060 (6566), #fff090 (6233), #f0a030 (5622), #402000 (5155). São cores de origem, não uma escala de tokens. Variações e neutros foram adaptados para contraste.
+Logo rosé e publicação de assessoria jurídica enviados pelo usuário são a autoridade visual. Copiados integralmente para public, sem edição, recorte ou recoloração. O texto integrado à publicação permanece na imagem. A paleta usa reflexos rosé e marfim do logo; cobre profundo e café são variações para contraste. As serifas contrastadas de Cormorant Garamond complementam a inscrição, e Manrope sustenta a leitura. Direção aplicada em .impeccable/rafhaela-silva-direction.md.
 
 ## Evidence on Hand
-Dados e relatos enviados pelo usuário em 20/10/2026:
+Informações fornecidas pelo usuário em 21/10/2026:
 
-- Campos Costa Assessoria Jurídica; Dr. Davi Oliveira Costa.
-- OAB/MG 171.888, identificada no retrato profissional fornecido.
-- Telefone/WhatsApp (33) 99811-0480; tel:+5533998110480; https://wa.me/5533998110480.
-- R. Geraldo Contador, 119, sala 101, Centro, Inhapim — MG, CEP 35330-000.
-- Instagram https://www.instagram.com/camposcosta.adv/ — @camposcosta.adv. Sem inferências a partir de bio não verificada.
-- Nota Google informada 5,0 e total de 19 avaliações, sem consulta ao vivo nem atualização automática.
-- Quinze transcrições literais em app/lib/brand.ts: Bernardo Santana, Bruno Coutinho, Rodrigo Araújo, Vitória Dafne Vieira Inácio, Maria Alice Carvalho, Gisele Muniz de Andrade, Lídia Fernandes Miranda, Breno Arêdes, Isadora Souza, Caio Coutinho, Aline Paula Alves, Mysson, Marlon Fernandes, Viviane Reis e Cleber Penini. Links levam à busca do escritório no Google Maps; não há URL individual confirmada.
+- Profissional: Rafhaela Silva — Advogada. Marca: Rafhaela Silva — Advocacia e Consultoria Jurídica.
+- Telefone/WhatsApp: (34) 99725-1415; tel:+5534997251415; https://wa.me/5534997251415.
+- Instagram: https://www.instagram.com/advrafhaela/; @advrafhaela.
+- Sede: R. das Gameleiras, 444, Campestre, São Gotardo — MG, CEP 38800-000.
+- Atendimento presencial e online; cobertura informada: São Gotardo, Distrito Federal e exterior.
+- Nota Google informada: 5,0; 17 avaliações. Não é uma consulta ao vivo nem uma atualização automática.
+- Nove transcrições: Thais Carvalho, Helena Faustino, Samira Oliveira, Nelly Gontijo, Rafael Ribeiro, Yalita Arianne, Larissa Fialho, Henrique Oliveira e Mauricio Nakao. Helena é um trecho, pois a transcrição original estava truncada. Não completar nem inventar restante. Os links levam à busca do escritório no Google Maps; não há URL individual de avaliação confirmada.
+- Assets: public/rafhaela-silva-logo.png (1774×887, transparente) e public/rafhaela-silva-assessoria.png (845×839). Origem e hashes em .impeccable/asset-origins.json.
 
-Assets originais em public: campos-costa-logo.png (1944 × 809); campos-costa-atendimento.png, campos-costa-pesquisa.png e davi-oliveira-costa.png (1254 × 1254 cada). Origens e hashes SHA-256 preservados em .impeccable/asset-origins.json.
-
-Evidências da versão orientada pela referência em .impeccable/review/campos-costa-reference/. O agente principal informou lint, TypeScript e build concluídos. Consulte validation.json, capturas e parecer final vigentes; registros da pasta anterior campos-costa não certificam esta versão. A etapa documental leu código e arquivos de sistema, sem executar browser, testes ou detector, e não presume aprovação de revisão visual.
+Usuário dispensou o e-mail. OAB, formação, experiência, horários e domínio não foram fornecidos. Áreas específicas não foram confirmadas: os seis cartões descrevem pilares e serviços gerais de assessoria. A menção ao direito trabalhista é mantida apenas na transcrição de Helena.
 
 ## Product Principles
-Preservar funções e responsividade. Usar somente fatos fornecidos; explicitar origem temporal das avaliações. Manter relatos literais e autoria. Não inventar especialidades, e-mail, domínio, formação, disponibilidade ou resultados. Situações concretas dependem de análise individual.
+Preservar a estrutura, a responsividade e as interações. Usar fatos fornecidos e autoria literal dos relatos. Identificar origem temporal da prova social. Não inventar contatos, credenciais, especialidades ou resultados. Cada situação depende de análise individual.
 
-## Refinamento de presença visual
-Pedido do usuário: aparência mais masculina. Aplicação: Merriweather 600/700 sem itálicos, ações em grafite, bronze contido, superfícies minerais e cantos retos. Conteúdo, fotos, contatos e logo transparente preservados. Evidências responsivas e funcionais em .impeccable/review/campos-costa-sobrio/.
+## Refinamento visual pela referência — 21/10/2026
+
+Referência enviada pelo usuário orientou composição clara, serifa com itálicos, molduras fotográficas, cartões delicados, cartão de contato e encerramento antes do rodapé. Dados e assets de Rafhaela preservados. Documentação visual vigente em DESIGN.md. Evidências em .impeccable/review/rafhaela-editorial/.

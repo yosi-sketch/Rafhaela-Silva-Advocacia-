@@ -1,41 +1,23 @@
 {
-  "client": "Campos Costa Assessoria Jurídica",
-  "verifiedAt": "2026-10-20T11:25:41.8547760Z",
+  "client": "Rafhaela Silva — Advocacia e Consultoria Jurídica",
+  "verifiedAt": "2026-10-21T06:49:27.486Z",
   "assets": [
     {
-      "source": "C:/Users/matheus/Downloads/Emblema Dourado Campos Costa.png",
-      "destination": "public/campos-costa-logo.png",
-      "width": 1944,
-      "height": 809,
-      "sha256": "df36faee34d3209ece41c90312aeaeb873ae02517ef57bd19da10ad27474f339",
-      "sourceSha256": "df36faee34d3209ece41c90312aeaeb873ae02517ef57bd19da10ad27474f339",
+      "source": "C:/Users/matheus/Downloads/Logotipo Luxuoso Rafhaela Silva em Rosé Gold.png",
+      "destination": "public/rafhaela-silva-logo.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "72d0d7d54c75ead3426f237e3d958bcf958440fe8e17ebfc6b697e09affea392",
+      "sourceSha256": "72d0d7d54c75ead3426f237e3d958bcf958440fe8e17ebfc6b697e09affea392",
       "identicalToSource": true
     },
     {
-      "source": "C:/Users/matheus/Downloads/Imagem do ChatGPT 20 de out. de 2026, 08_09_42-2.png",
-      "destination": "public/campos-costa-atendimento.png",
-      "width": 1254,
-      "height": 1254,
-      "sha256": "d69cdc5dc0b094381668799fbe3ee7d8a24675a92d47a09679d7a325f9913787",
-      "sourceSha256": "d69cdc5dc0b094381668799fbe3ee7d8a24675a92d47a09679d7a325f9913787",
-      "identicalToSource": true
-    },
-    {
-      "source": "C:/Users/matheus/Downloads/Imagem do ChatGPT 20 de out. de 2026, 08_09_41-1.png",
-      "destination": "public/campos-costa-pesquisa.png",
-      "width": 1254,
-      "height": 1254,
-      "sha256": "1270578e10c4470c6c8ba57d3625a39820030df3cf235d0da1b5ac3f95fe2c2e",
-      "sourceSha256": "1270578e10c4470c6c8ba57d3625a39820030df3cf235d0da1b5ac3f95fe2c2e",
-      "identicalToSource": true
-    },
-    {
-      "source": "C:/Users/matheus/Downloads/Retrato Profissional Dr. Davi Oliveira Costa.png",
-      "destination": "public/davi-oliveira-costa.png",
-      "width": 1254,
-      "height": 1254,
-      "sha256": "70b02e4f89dff74619ad9a8ec254680a50bd5abf3a2adbd44e21f5bc8e2421f7",
-      "sourceSha256": "70b02e4f89dff74619ad9a8ec254680a50bd5abf3a2adbd44e21f5bc8e2421f7",
+      "source": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-3ee7f0bd-65ad-4821-9957-01d4b4450f13.png",
+      "destination": "public/rafhaela-silva-assessoria.png",
+      "width": 845,
+      "height": 839,
+      "sha256": "7b679c1c711ccb72d35fcb88975d6314cd3661fb6023958f090e72a430a8c1a9",
+      "sourceSha256": "7b679c1c711ccb72d35fcb88975d6314cd3661fb6023958f090e72a430a8c1a9",
       "identicalToSource": true
     }
   ]

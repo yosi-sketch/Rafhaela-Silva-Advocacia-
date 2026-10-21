@@ -1,195 +1,455 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T13:44:19.654Z",
-  "title": "Design System: Campos Costa Assessoria Jurídica",
+  "generatedAt": "2026-10-21T08:07:36.975Z",
+  "title": "Design System: Rafhaela Silva — Advocacia e Consultoria Jurídica",
   "extensions": {
     "colorMeta": {
-      "brand-700": {
-        "role": "primary",
-        "displayName": "Bronze de leitura",
-        "canonical": "#805b25",
+      "ink": {
+        "role": "neutral",
+        "displayName": "ink",
+        "canonical": "#332521",
         "tonalRamp": [
-          "#263033",
-          "#62471f",
-          "#805b25",
-          "#95691d",
-          "#b78a31",
-          "#d4ab55",
-          "#ffd060",
-          "#ffe6a0"
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
         ]
       },
-      "brand-300": {
-        "role": "primary",
-        "displayName": "Ouro do emblema",
-        "canonical": "#ffd060",
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "ink-soft",
+        "canonical": "#6d5750",
         "tonalRamp": [
-          "#263033",
-          "#62471f",
-          "#805b25",
-          "#95691d",
-          "#b78a31",
-          "#d4ab55",
-          "#ffd060",
-          "#ffe6a0"
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "paper",
+        "canonical": "#fffdfb",
+        "tonalRamp": [
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
         ]
       },
       "ivory": {
         "role": "neutral",
-        "displayName": "Cinza mineral",
-        "canonical": "#f6f7f6",
+        "displayName": "ivory",
+        "canonical": "#fbf8f4",
         "tonalRamp": [
-          "#172023",
-          "#202729",
-          "#263033",
-          "#505b5e",
-          "#d6dcda",
-          "#eef1ef",
-          "#f6f7f6",
-          "#ffffff"
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
+        ]
+      },
+      "linen": {
+        "role": "neutral",
+        "displayName": "linen",
+        "canonical": "#e8dcd5",
+        "tonalRamp": [
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
+        ]
+      },
+      "brand-50": {
+        "role": "primary",
+        "displayName": "brand-50",
+        "canonical": "#f5eee7",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-100": {
+        "role": "primary",
+        "displayName": "brand-100",
+        "canonical": "#f0d9cf",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-200": {
+        "role": "primary",
+        "displayName": "brand-200",
+        "canonical": "#ffe4d6",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-300": {
+        "role": "primary",
+        "displayName": "brand-300",
+        "canonical": "#f0b7a6",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-400": {
+        "role": "primary",
+        "displayName": "brand-400",
+        "canonical": "#dba08e",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-500": {
+        "role": "primary",
+        "displayName": "brand-500",
+        "canonical": "#b87564",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-600": {
+        "role": "primary",
+        "displayName": "brand-600",
+        "canonical": "#a16050",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-700": {
+        "role": "primary",
+        "displayName": "brand-700",
+        "canonical": "#8c4c3e",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-800": {
+        "role": "primary",
+        "displayName": "brand-800",
+        "canonical": "#723d33",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-900": {
+        "role": "primary",
+        "displayName": "brand-900",
+        "canonical": "#573a32",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "brand-950": {
+        "role": "primary",
+        "displayName": "brand-950",
+        "canonical": "#30211d",
+        "tonalRamp": [
+          "#30211d",
+          "#723d33",
+          "#8c4c3e",
+          "#a16050",
+          "#b87564",
+          "#dba08e",
+          "#f0b7a6",
+          "#ffe4d6"
+        ]
+      },
+      "action-text": {
+        "role": "neutral",
+        "displayName": "action-text",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
+        ]
+      },
+      "services-surface": {
+        "role": "neutral",
+        "displayName": "services-surface",
+        "canonical": "#f8f3ed",
+        "tonalRamp": [
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
+        ]
+      },
+      "trust-divider": {
+        "role": "neutral",
+        "displayName": "trust-divider",
+        "canonical": "#775b51",
+        "tonalRamp": [
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
+        ]
+      },
+      "trust-muted": {
+        "role": "neutral",
+        "displayName": "trust-muted",
+        "canonical": "#d6beb3",
+        "tonalRamp": [
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
+        ]
+      },
+      "footer-muted": {
+        "role": "neutral",
+        "displayName": "footer-muted",
+        "canonical": "#dbc9c0",
+        "tonalRamp": [
+          "#30211d",
+          "#332521",
+          "#573a32",
+          "#6d5750",
+          "#e8dcd5",
+          "#f5eee7",
+          "#fbf8f4",
+          "#fffdfb"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Serifa editorial",
-        "purpose": "H1 e ênfase bronze sem itálico."
-      },
-      "headline": {
-        "displayName": "Títulos de seção",
-        "purpose": "Hierarquia e introdução das seções."
+        "displayName": "Serifa da marca",
+        "purpose": "Títulos editoriais em Cormorant Garamond600, com ênfase em itálico rosé."
       },
       "body": {
-        "displayName": "Leitura Manrope",
-        "purpose": "Explicações, controles e textos."
+        "displayName": "Leitura e controles",
+        "purpose": "Manrope preserva legibilidade em parágrafos e ações."
       }
     },
     "shadows": [
       {
-        "name": "card",
-        "value": "0 14px 38px rgb(48 41 30 / 12%)",
-        "purpose": "Fotografia editorial."
+        "name": "brand-panel",
+        "value": "0 14px 38px rgb(70 39 29 / 12%)",
+        "purpose": "Profundidade suave para a fotografia e superfícies editoriais."
       },
       {
         "name": "portrait",
-        "value": "0 12px 28px rgb(23 32 35 / 12%)",
-        "purpose": "Retrato do hero."
+        "value": "0 12px 28px rgb(48 33 29 / 12%)",
+        "purpose": "Destacar a publicação original."
       },
       {
         "name": "dialog",
-        "value": "0 20px 60px rgb(25 23 17 / 25%)",
-        "purpose": "Diálogo sobreposto."
+        "value": "0 20px 60px rgb(48 33 29 / 25%)",
+        "purpose": "Separar o diálogo de seu fundo escurecido."
       }
     ],
     "motion": [
       {
         "name": "portrait-reveal",
-        "value": ".8s cubic-bezier(.16,1,.3,1)",
-        "purpose": "Revelação curta por clip-path, desativada com prefers-reduced-motion."
+        "value": "clip-path inset(0 0 6% 0) to inset(0), .8s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Revelação única da publicação; desligada com movimento reduzido."
       },
       {
         "name": "control-transition",
         "value": ".2s",
-        "purpose": "Alterações de fundo, cor e borda; desativadas com movimento reduzido."
+        "purpose": "Transições de fundo, cor e borda."
       }
     ],
     "breakpoints": [
       {
-        "name": "small-mobile",
+        "name": "compact-mobile-max",
         "value": "479px"
       },
       {
-        "name": "mobile",
+        "name": "mobile-max",
         "value": "767px"
       },
       {
-        "name": "tablet",
+        "name": "tablet-max",
         "value": "1023px"
       },
       {
-        "name": "compact-desktop",
+        "name": "compact-desktop-max",
         "value": "1199px"
       },
       {
-        "name": "wide-desktop",
+        "name": "wide-desktop-min",
         "value": "1500px"
       }
     ]
   },
   "components": [
     {
-      "name": "Contato principal",
+      "name": "Botão principal",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Contato direto pelo WhatsApp.",
-      "html": "<a class=\"ds-primary\" href=\"https://wa.me/5533998110480\">Fale com a Campos Costa</a>",
-      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 20px;border:1px solid transparent;border-radius:2px;background:var(--color-brand-950,#172023);color:var(--color-paper,#fff);font:700 12px/1.6 var(--font-sans,Manrope,sans-serif);text-decoration:none;transition:background .2s}.ds-primary:hover{background:var(--color-brand-900,#263033)}.ds-primary:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}"
+      "description": "Contato pelo WhatsApp em cobre profundo.",
+      "html": "<a class=\"ds-primary\" href=\"https://wa.me/5534997251415\" target=\"_blank\" rel=\"noopener noreferrer\">Converse com a Rafhaela</a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:13px 20px;border-radius:4px;font:700 12px/1.6 var(--font-sans,Manrope,sans-serif);text-decoration:none;cursor:pointer;transition:background .2s,color .2s,border-color .2s;background:var(--color-brand-700,#8c4c3e);color:white;border:1px solid transparent}.ds-primary:hover{background:var(--color-brand-800,#723d33)}.ds-primary:focus-visible{outline:2px solid var(--color-brand-700,#8c4c3e);outline-offset:5px}"
     },
     {
-      "name": "Ação secundária",
+      "name": "Botão secundário",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "Navegação para o atendimento.",
-      "html": "<a class=\"ds-secondary\" href=\"#atendimento\">Conheça o atendimento</a>",
-      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 20px;border:1px solid var(--color-linen,#d6dcda);border-radius:2px;background:var(--color-paper,#fff);color:var(--color-ink,#202729);font:700 12px/1.6 var(--font-sans,Manrope,sans-serif);text-decoration:none;transition:color .2s,border-color .2s}.ds-secondary:hover{border-color:var(--color-brand-600,#95691d);color:var(--color-brand-700,#805b25)}.ds-secondary:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}"
+      "description": "Navegação interna sobre papel e borda de linho.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Conheça o atendimento</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:13px 20px;border-radius:4px;font:700 12px/1.6 var(--font-sans,Manrope,sans-serif);text-decoration:none;cursor:pointer;transition:background .2s,color .2s,border-color .2s;background:var(--color-paper,#fffdfb);color:var(--color-ink,#332521);border:1px solid var(--color-linen,#e8dcd5)}.ds-secondary:hover{border-color:var(--color-brand-600,#a16050);color:var(--color-brand-700,#8c4c3e)}.ds-secondary:focus-visible{outline:2px solid var(--color-brand-700,#8c4c3e);outline-offset:5px}"
     },
     {
       "name": "Navegação",
       "kind": "nav",
-      "description": "Links sobre cabeçalho branco.",
-      "html": "<nav class=\"ds-nav\"><a href=\"#sobre\">O escritório</a><a href=\"#atendimento\">Atendimento</a><a href=\"#contato\">Contato</a></nav>",
-      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:24px;padding:16px;background:var(--color-paper,#fff);font:650 11px/1.5 var(--font-sans,Manrope,sans-serif)}.ds-nav a{padding-block:15px;color:var(--color-ink-soft,#505b5e);text-decoration:none}.ds-nav a:hover{color:var(--color-brand-700,#805b25)}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}"
+      "description": "Links compactos com foco visível e hover em cobre.",
+      "html": "<nav class=\"ds-navigation\" aria-label=\"Exemplo de navegação\"><a href=\"#sobre\">O escritório</a><a href=\"#atendimento\">Atendimento</a><a href=\"#contato\">Contato</a></nav>",
+      "css": ".ds-navigation{display:flex;flex-wrap:wrap;gap:24px;padding:16px;background:var(--color-paper,#fffdfb)}.ds-navigation a{padding:15px 0;color:var(--color-ink-soft,#6d5750);font:650 12px/1.5 var(--font-sans,Manrope,sans-serif);text-decoration:none}.ds-navigation a:hover{color:var(--color-brand-700,#8c4c3e)}.ds-navigation a:focus-visible{outline:2px solid var(--color-brand-700,#8c4c3e);outline-offset:5px}"
     },
     {
-      "name": "Atendimento",
+      "name": "Pilar de atendimento",
       "kind": "card",
-      "description": "Cartão institucional com ação de detalhe.",
-      "html": "<article class=\"ds-service\"><h3>Consulta e orientação</h3><p>Um espaço para apresentar sua situação, esclarecer dúvidas e compreender os próximos passos.</p><button type=\"button\">Saiba mais</button></article>",
-      "css": ".ds-service{padding:28px;border:1px solid var(--color-linen,#d6dcda);border-radius:2px;background:var(--color-paper,#fff);color:var(--color-ink,#202729);font-family:var(--font-sans,Manrope,sans-serif);transition:border-color .2s}.ds-service:hover{border-color:var(--color-brand-500,#b78a31)}.ds-service h3{font:400 23px/1.3 var(--font-display,\"Merriweather\",serif);letter-spacing:-.035em;margin:0 0 13px}.ds-service p{font-size:13px;line-height:1.95;color:var(--color-ink-soft,#505b5e);margin:0 0 21px}.ds-service button{border:0;background:transparent;min-height:40px;padding:8px 0 0;color:var(--color-brand-700,#805b25);font:650 11px var(--font-sans,Manrope,sans-serif);cursor:pointer}.ds-service button:hover{color:var(--color-brand-800,#62471f);text-decoration:underline;text-underline-offset:4px}.ds-service button:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}"
+      "refersTo": "service-card",
+      "description": "Papel, borda de linho, título serifado e ação em cobre.",
+      "html": "<article class=\"ds-service\"><h3>Orientação jurídica</h3><p>Um espaço para apresentar sua situação, esclarecer dúvidas e compreender os próximos passos.</p><button type=\"button\">Saiba mais</button></article>",
+      "css": ".ds-service{padding:28px;border:1px solid var(--color-linen,#e8dcd5);border-radius:5px;background:var(--color-paper,#fffdfb);color:var(--color-ink,#332521);transition:border-color .2s}.ds-service:hover{border-color:var(--color-brand-500,#b87564)}.ds-service h3{margin:0;font:600 28px/1.3 var(--font-display,\"Cormorant Garamond\",Georgia,serif);letter-spacing:-.025em}.ds-service p{margin:13px 0 21px;color:var(--color-ink-soft,#6d5750);font:500 15px/1.85 var(--font-sans,Manrope,sans-serif)}.ds-service button{padding:8px 0;min-height:40px;border:0;background:transparent;color:var(--color-brand-700,#8c4c3e);font:650 11px/1.6 var(--font-sans,Manrope,sans-serif);cursor:pointer}.ds-service button:hover{text-decoration:underline;text-underline-offset:4px}.ds-service button:focus-visible{outline:2px solid var(--color-brand-700,#8c4c3e);outline-offset:5px}"
     },
     {
-      "name": "Relato",
+      "name": "Relato de cliente",
       "kind": "card",
-      "description": "Transcrição fornecida, com autoria.",
-      "html": "<figure class=\"ds-review\"><blockquote>Ótimo atendimento, profissionalismo excepcional, comunicação transparente e objetiva. Recomendo.</blockquote><figcaption>Breno Arêdes</figcaption></figure>",
-      "css": ".ds-review{margin:0;padding:22px;border:1px solid #e8dfd1;border-radius:2px;background:var(--color-paper,#fff);color:var(--color-ink,#202729);font-family:var(--font-sans,Manrope,sans-serif)}.ds-review blockquote{margin:14px 0 0;font-size:13px;line-height:1.95}.ds-review figcaption{margin-top:19px;padding-top:14px;border-top:1px solid var(--color-linen,#d6dcda);font-size:11px;font-weight:650}"
-    },
-    {
-      "name": "Pergunta frequente",
-      "kind": "custom",
-      "description": "Details nativo expansível.",
-      "html": "<details class=\"ds-faq\"><summary>Onde fica o escritório?</summary><p>R. Geraldo Contador, 119, sala 101, Centro, Inhapim — MG.</p></details>",
-      "css": ".ds-faq{border-bottom:1px solid var(--color-linen,#d6dcda);background:var(--color-ivory,#f6f7f6);color:var(--color-ink,#202729);font-family:var(--font-sans,Manrope,sans-serif)}.ds-faq summary{padding:22px 0;min-height:24px;font-size:14px;font-weight:600;cursor:pointer}.ds-faq summary:hover{color:var(--color-brand-700,#805b25)}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}.ds-faq p{padding:0 24px 22px 0;margin:0;font-size:12px;line-height:1.95;color:var(--color-ink-soft,#505b5e)}"
+      "refersTo": "review-card",
+      "description": "Transcrição fornecida, com autoria e referência ao Google.",
+      "html": "<figure class=\"ds-review\"><blockquote>“Uma excelente profissional, recomendo”</blockquote><figcaption><strong>Henrique Oliveira</strong><span>Avaliação no Google</span></figcaption></figure>",
+      "css": ".ds-review{margin:0;padding:22px;border:1px solid var(--color-linen,#e8dcd5);border-radius:5px;background:var(--color-paper,#fffdfb);color:var(--color-ink,#332521);font:500 15px/1.85 var(--font-sans,Manrope,sans-serif)}.ds-review blockquote{margin:14px 0 0}.ds-review figcaption{margin-top:19px;padding-top:14px;border-top:1px solid var(--color-linen,#e8dcd5)}.ds-review strong{display:block;font-size:11px}.ds-review span{display:block;margin-top:3px;color:var(--color-ink-soft,#6d5750);font-size:9px}"
     }
   ],
   "narrative": {
-    "northStar": "Direito com clareza, atendimento com cuidado",
-    "overview": "O sistema organiza a presença do escritório como uma publicação editorial clara: grandes serifas, ênfases em bronze sem itálico, superfícies de papel e fotografias fornecidas. O logo dourado e branco permanece integral sem fundo próprio no cabeçalho e sobre o rodapé escuro.\n\nA atualização responde à rejeição explícita do hero escuro e da página percebida como vazia. A referência enviada orienta composição e densidade; os fatos e a identidade permanecem da Campos Costa.",
+    "northStar": "Clareza com cuidado",
+    "overview": "Composição editorial clara inspirada na referência de 21/10/2026, com identidade rosé própria, serifas em itálico, fotografia original, contato com a marca e rodapé claro.",
     "keyCharacteristics": [
-      "Merriweather com pesos 600/700 e sem itálico com Manrope na leitura e nos controles.",
-      "Papel e cinza mineral predominantes; grafite nas ações e bronze nos detalhes; ouro na marca e nos detalhes sobre escuro.",
-      "Fotografias originais, cartões de leitura e transições discretas entre superfícies."
+      "Superfícies de marfim e papel",
+      "Cormorant Garamond 600 com itálicos",
+      "Manrope na leitura e nos controles"
     ],
     "rules": [
       {
         "name": "Contraste Contextual",
-        "body": "Usar bronze nas ênfases sobre claro e grafite nas ações; ouro nos detalhes sobre carvão.",
+        "body": "Cobre profundo sobre claro; rosé claro sobre café.",
         "section": "colors"
       },
       {
         "name": "Ênfase Editorial",
-        "body": "Preservar a relação entre serifa robusta escura e trechos retos em bronze, sem transformar os parágrafos em títulos.",
+        "body": "Itálicos rosé nos títulos, Manrope nos textos funcionais.",
         "section": "typography"
       }
     ],
     "dos": [
-      "Do preservar arquivos originais, proporção da marca, retrato integral e autoria dos relatos.",
-      "Do manter foco visível, texto legível, movimento reduzido e hierarquia clara em cada largura."
+      "Preservar marca e dados reais",
+      "Manter responsividade e foco visível"
     ],
     "donts": [
-      "Don't inventar especialidades, e-mail, horários, atendimento online, experiência, domínio ou resultados.",
-      "Don't identificar o profissional das fotos editoriais como Dr. Davi; somente o retrato fornecido o identifica.",
-      "Don't reconstruir o logo com texto ou copiar os fatos da referência visual."
+      "Copiar fatos da referência",
+      "Sobrepor legendas a texto"
     ]
   }
 }
